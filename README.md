@@ -8,17 +8,17 @@ With the advancement of technology, web applications are becoming the new manage
 
 ### Student
 - [x] Login
-- [ ] Sign Up
+- [x] Sign Up
 - [x] View My Project
 - [x] Proposed Project
 - [x] Appointments
-- [ ] Progress
+- [x] Progress
 
 ### Supervisor
-- [ ] Login
-- [ ] Sign Up
-- [ ] Propose Project
-- [ ] Assign Project to a student
-- [ ] View Appointments 
-- [ ] View Student Progress
-- [ ] Mark Project Assesment 
+- [x] Login
+- [x] Sign Up
+- [x] Propose Project
+- [x] Assign Project to a student
+- [x] View Appointments 
+- [x] View Student Progress
+- [x] Mark Project Assesment 
