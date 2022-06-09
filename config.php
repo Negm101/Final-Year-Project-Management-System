@@ -1,9 +1,9 @@
 <?php
 
-define('DB_SERVER', 'testdatabase.cn2f8k3fvr90.us-east-2.rds.amazonaws.com');
-define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', '522ZUkrZgdhA3n9JxeGC');
-define('DB_NAME', 'fybtest');
+define('DB_SERVER', 'SERVER_URL');
+define('DB_USERNAME', 'SERVER_USERNAME');
+define('DB_PASSWORD', 'SERVER_PASSWORD');
+define('DB_NAME', 'DB_NAME');
 
  $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
