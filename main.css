@@ -1,0 +1,147 @@
+body
+{
+    background-color: #FFBE7BFF; 
+}
+
+.login_signup{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    padding: 80px;  
+    background: #ee4e58;  
+    border-radius: 15px ;
+
+}
+
+
+
+h1
+{
+    text-align: center;
+}
+
+label{    
+    font-size: 17px;  
+} 
+
+#username, #firstName, #lastName, #password{  
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+}
+
+
+#log{  
+    width: 360px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;    
+}
+
+#log:hover
+{
+    background-color: #2BAE66FF;
+}
+
+/* Register button part*/
+
+#Register
+{
+    width: 360px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+
+#Register:hover
+{
+    background-color: #2BAE66FF;
+}
+
+
+legend{
+    background-color: #28334AFF; 
+	color: white;
+    font-size: 20px;
+    padding: 0.5rem;
+    text-align: center;
+    width: 90%;
+}
+
+label{
+    font-size: 20px;
+}
+
+.appointments input, .proposal input, .meetlog input{
+    font-size: 20px;
+    width: 20em;
+}
+
+input[type=submit] {
+    background-color: #28334AFF;
+    color: white;
+    border-style: none;
+    height: 2em;
+    width: 7em;
+}
+
+#myFile, #submit{
+    font-size: 20px;
+}
+
+#submit:hover
+{
+    background-color: #2BAE66FF;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    margin: 0;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .main {
+    margin-top:7%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
